@@ -1,3 +1,10 @@
 export { default as OverlayTest } from './OverlayTest';
 export { default as BadgeTest } from './BadgeTest';
 export { default as BalloonTest } from './BalloonTest';
+export { default as BreadcrumbTest } from './BreadcrumbTest';
+export { default as ButtonTest } from './ButtonTest';
+export { default as CheckboxTest } from './CheckboxTest';
+export { default as DatePickerTest } from './DatePickerTest';
+export { default as DialogTest } from './DialogTest';
+export { default as DropdownTest } from './DropdownTest';
+export { default as FeedbackTest } from './FeedbackTest';

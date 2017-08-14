@@ -4,6 +4,13 @@ import {
   OverlayTest,
   BadgeTest,
   BalloonTest,
+  BreadcrumbTest,
+  ButtonTest,
+  CheckboxTest,
+  DatePickerTest,
+  DialogTest,
+  DropdownTest,
+  FeedbackTest,
  } from './components';
 
 class App extends React.Component {
@@ -16,9 +23,16 @@ class App extends React.Component {
         
         <div className="App-body">
           <div className="body-box">
-            <BalloonTest/>
+            <FeedbackTest/>
             <OverlayTest/>
             <BadgeTest/>
+            <BalloonTest/>
+            <BreadcrumbTest/>
+            <ButtonTest/>
+            <CheckboxTest/>
+            <DatePickerTest/>
+            <DialogTest/>
+            <DropdownTest/>
           </div>
         </div>
       </div>

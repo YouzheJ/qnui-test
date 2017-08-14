@@ -108,3 +108,28 @@ html, body, #root, .App {
   border-radius: 50%;
   background: #eee;
 }
+
+.line .next-breadcrumb {
+  height: auto;
+}
+
+.ghost-light-background {
+    height: 100px;
+    line-height: 100px;
+    width: 50%;
+    float: left;
+    background: #E1F5C4;
+    margin-bottom: 20px;
+    padding-left:10px;
+    box-sizing: border-box;
+}
+.ghost-dark-background {
+    height: 100px;
+    line-height: 100px;
+    width: 50%;
+    float: right;
+    background: #F05053;
+    margin-bottom: 20px;
+    padding-left:10px;
+    box-sizing: border-box;
+}
