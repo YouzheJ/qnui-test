@@ -82,6 +82,10 @@ html, body, #root, .App {
   margin: 10px;
 }
 
+.content .next-pagination button {
+  margin: 0 3px;
+}
+
 .overlay-demo {
   border: 1px solid #999;
   padding: 10px;
