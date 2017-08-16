@@ -15,8 +15,9 @@ import {
   GridTest,
   SliderTest,
   UploadTest,
-
   SomeTest,
+  FormTest,
+  FieldTest,
  } from './components';
 
 class App extends React.Component {
@@ -29,20 +30,22 @@ class App extends React.Component {
         
         <div className="App-body">
           <div className="body-box">
-            <UploadTest/>
-            <OverlayTest/>
+            <FieldTest/>
             <BadgeTest/>
+            <FeedbackTest/>
             <BalloonTest/>
             <BreadcrumbTest/>
-            <ButtonTest/>
-            <CheckboxTest/>
             <DatePickerTest/>
+            <CheckboxTest/>
             <DialogTest/>
             <DropdownTest/>
-            <FeedbackTest/>
+            <OverlayTest/>
             <GridTest/>
-            <SomeTest/>
+            <UploadTest/>
             <SliderTest/>
+            <ButtonTest/>
+            <SomeTest/>
+            <FormTest/>
           </div>
         </div>
       </div>

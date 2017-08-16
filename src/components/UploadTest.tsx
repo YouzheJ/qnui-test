@@ -3,7 +3,7 @@ import { Upload, Button } from 'qnui';
 
 /* 
 ===============
-注意：qnui@0.5.1 缺少Upload模块，0.5.0正常
+注意：qnui@0.5.1 去除了Upload模块，需要自己实现， 0.5.0正常
 ===============
 */
 
