@@ -1,0 +1,416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="Block"
+>
+  <div
+    className="title"
+  >
+    Field 表单通用工具
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="line"
+    >
+      <form
+        className="next-form next-form-left ver next-form-medium"
+        onSubmit={[Function]}
+      >
+        <div
+          className="next-form-item next-row"
+          label="国籍："
+          style={undefined}
+        >
+          <label
+            className="next-col-6 next-form-item-label"
+            htmlFor="select"
+            required={true}
+          >
+            国籍：
+          </label>
+          <div
+            className="next-col-14 next-form-item-control"
+          >
+            <span
+              className="next-select medium"
+              data-meta="Field"
+              id="select"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              style={
+                Object {
+                  "width": 200,
+                }
+              }
+              tabIndex={0}
+            >
+              <input
+                name="select-faker"
+                type="hidden"
+                value={Array []}
+              />
+              <span
+                className="next-select-inner"
+              >
+                <span
+                  className="next-select-placeholder"
+                >
+                  请选择国家
+                </span>
+              </span>
+              <i
+                className="next-icon next-icon-arrow-down next-icon-small next-select-arrow"
+              />
+            </span>
+             
+            <div
+              className=""
+            />
+             
+          </div>
+        </div>
+        <div
+          className="next-form-item next-row"
+          label="喜欢的颜色："
+          style={undefined}
+        >
+          <label
+            className="next-col-6 next-form-item-label"
+            htmlFor="multiSelect"
+            required={true}
+          >
+            喜欢的颜色：
+          </label>
+          <div
+            className="next-col-14 next-form-item-control"
+          >
+            <span
+              className="next-select medium multiple"
+              data-meta="Field"
+              id="multiSelect"
+              onChange={[Function]}
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onMouseUp={[Function]}
+              style={
+                Object {
+                  "width": 200,
+                }
+              }
+              tabIndex={0}
+            >
+              <input
+                name="select-faker"
+                type="hidden"
+                value={Array []}
+              />
+              <span
+                className="next-select-inner"
+              >
+                <span
+                  className="next-select-placeholder"
+                >
+                  请选择颜色
+                </span>
+              </span>
+              <i
+                className="next-icon next-icon-arrow-down next-icon-small next-select-arrow"
+              />
+            </span>
+             
+            <div
+              className=""
+            />
+             
+          </div>
+        </div>
+        <div
+          className="next-form-item next-row"
+          label="性别："
+          style={undefined}
+        >
+          <label
+            className="next-col-6 next-form-item-label"
+            htmlFor="radio"
+            required={true}
+          >
+            性别：
+          </label>
+          <div
+            className="next-col-14 next-form-item-control"
+          >
+            <div
+              className="next-radio-group"
+              id="radio"
+              style={undefined}
+            >
+              <label
+                className=""
+                style={Object {}}
+              >
+                <span
+                  className="next-radio "
+                  style={undefined}
+                >
+                  <span
+                    className="next-radio-inner unpress"
+                  />
+                  <input
+                    aria-checked={false}
+                    checked={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    type="radio"
+                    value="male"
+                  />
+                </span>
+                <span
+                  className="next-radio-label"
+                  htmlFor={undefined}
+                >
+                  男
+                </span>
+              </label>
+              <label
+                className=""
+                style={Object {}}
+              >
+                <span
+                  className="next-radio "
+                  style={undefined}
+                >
+                  <span
+                    className="next-radio-inner unpress"
+                  />
+                  <input
+                    aria-checked={false}
+                    checked={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    type="radio"
+                    value="female"
+                  />
+                </span>
+                <span
+                  className="next-radio-label"
+                  htmlFor={undefined}
+                >
+                  女
+                </span>
+              </label>
+            </div>
+             
+            <div
+              className=""
+            />
+             
+          </div>
+        </div>
+        <div
+          className="next-form-item next-row"
+          label="生日："
+          style={undefined}
+        >
+          <label
+            className="next-col-6 next-form-item-label"
+            htmlFor="birthday"
+            required={true}
+          >
+            生日：
+          </label>
+          <div
+            className="next-col-14 next-form-item-control"
+          >
+            <div
+              className="next-date-picker next-date-picker-medium"
+              data-meta="Field"
+              id="birthday"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              style={undefined}
+            >
+              <span
+                className="next-input next-input-single next-input-medium"
+                style={Object {}}
+              >
+                <input
+                  disabled={false}
+                  height="100%"
+                  maxLength={null}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder="请选择日期"
+                  readOnly={false}
+                  style={
+                    Object {
+                      "textIndent": undefined,
+                    }
+                  }
+                  type="text"
+                  value=""
+                />
+              </span>
+              <i
+                className="next-icon next-icon-calendar next-icon-small"
+              />
+            </div>
+             
+            <div
+              className=""
+            />
+             
+          </div>
+        </div>
+        <div
+          className="next-form-item next-row"
+          label="8~12间的质数"
+          style={undefined}
+        >
+          <label
+            className="next-col-6 next-form-item-label"
+            htmlFor="primeNumber"
+            required={false}
+          >
+            8~12间的质数
+          </label>
+          <div
+            className="next-col-14 next-form-item-control"
+          >
+            <div
+              className="next-number-picker next-number-picker-normal"
+              style={Object {}}
+            >
+              <div
+                className="next-number-picker-handler-wrap"
+              >
+                <a
+                  className="next-number-picker-handler next-number-picker-handler-up "
+                  onClick={[Function]}
+                  onMouseDown={[Function]}
+                  unselectable="unselectable"
+                >
+                  <span
+                    className="next-number-picker-handler-up-inner"
+                    onClick={[Function]}
+                    unselectable="unselectable"
+                  >
+                    <i
+                      className="next-icon next-icon-add next-icon-medium"
+                    />
+                  </span>
+                </a>
+                <a
+                  className="next-number-picker-handler next-number-picker-handler-down next-number-picker-handler-down-disabled"
+                  onClick={[Function]}
+                  onMouseDown={[Function]}
+                  unselectable="unselectable"
+                >
+                  <span
+                    className="next-number-picker-handler-down-inner"
+                    onClick={[Function]}
+                    unselectable="unselectable"
+                  >
+                    <i
+                      className="next-icon next-icon-minus next-icon-medium"
+                    />
+                  </span>
+                </a>
+              </div>
+              <div
+                className="next-number-picker-input-wrap"
+              >
+                <span
+                  className="next-input next-input-single next-input-medium next-number-picker-input"
+                  style={
+                    Object {
+                      "width": undefined,
+                    }
+                  }
+                >
+                  <input
+                    autoComplete="off"
+                    autoFocus={undefined}
+                    data-meta="Field"
+                    disabled={false}
+                    height="100%"
+                    id="primeNumber"
+                    max={12}
+                    maxLength={null}
+                    min={8}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    readOnly={false}
+                    step={1}
+                    style={
+                      Object {
+                        "textIndent": undefined,
+                      }
+                    }
+                    type="text"
+                    value={0}
+                  />
+                </span>
+              </div>
+            </div>
+             
+            <div
+              className=""
+            />
+             
+          </div>
+        </div>
+        <div
+          className="next-form-item next-row"
+          style={undefined}
+        >
+          <div
+            className="next-col-16 next-col-offset-6 next-form-item-control"
+          >
+            <button
+              className="next-btn next-btn-primary next-btn-medium"
+              onClick={[Function]}
+              onMouseUp={[Function]}
+              type="button"
+            >
+              确定
+            </button>
+               
+            <button
+              className="next-btn next-btn-normal next-btn-medium"
+              onClick={[Function]}
+              onMouseUp={[Function]}
+              type="button"
+            >
+              重置
+            </button>
+             
+            <div
+              className=""
+            >
+              
+            </div>
+             
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

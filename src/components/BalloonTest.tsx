@@ -81,7 +81,7 @@ class BalloonTest extends React.Component<any, BalloonState> {
 
           {/* visible */}
           <div className="line">
-            <div id="balloon-container" style={{position: 'relative'}}></div>
+            <div id="balloon-container" style={{position: 'relative'}}/>
             <Balloon
               trigger={visibleTrigger}
               container="balloon-container"

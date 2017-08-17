@@ -49,7 +49,7 @@ class OverlayTest extends React.Component<any, OverlayState> {
   }
   render() {
     const { visible1, visible2, visible3, visible4, overlayVisible } = this.state;
-    const popupTrigger = <button ref={() => "popupContainer"}>Popup弹出浮层</button>;
+    const popupTrigger = <button ref={() => 'popupContainer'}>Popup弹出浮层</button>;
     return (
       <div className="Block">
         <div className="title">Overlay 弹层</div>
@@ -73,7 +73,7 @@ class OverlayTest extends React.Component<any, OverlayState> {
           </Popup>
 
           {/* 跟随滚动: scroll-container需relative定位 */}
-          <div className="scroll-container" ref="scroll">
+          <div className="scroll-container" ref={() => 'scroll'}>
             <Popup 
               trigger={<button>跟随</button>}
               container={() => this.refs.scroll}

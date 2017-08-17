@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Badge,Icon, Button } from 'qnui';
+import { Badge, Icon, Button } from 'qnui';
 
 interface BadgeState {
   count: number;
@@ -20,7 +20,7 @@ class BadgeTest extends React.Component<any, BadgeState> {
   }
   decrease = () => {
     let count = this.state.count - 1;
-    if(count < 0) {
+    if (count < 0) {
       count  = 0;
     }
     this.setState({count});
@@ -37,7 +37,7 @@ class BadgeTest extends React.Component<any, BadgeState> {
       backgroundColor: '#fff',
       color: '#999',
       border: '1px solid #d9d9d9',
-    }
+    };
     const ButtonGroup = Button.Group;
     return (
       <div className="Block">

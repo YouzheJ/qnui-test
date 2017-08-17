@@ -39,11 +39,11 @@ class CheckboxTest extends React.Component<any, ButtonState> {
           <div className="line">
             <h6>Without Label</h6>
               <Checkbox />&nbsp;
-              <Checkbox defaultChecked />&nbsp;
-              <Checkbox defaultIndeterminate />&nbsp;
-              <Checkbox disabled />&nbsp;
-              <Checkbox disabled checked />&nbsp;
-              <Checkbox checked />
+              <Checkbox defaultChecked={true} />&nbsp;
+              <Checkbox defaultIndeterminate={true} />&nbsp;
+              <Checkbox disabled={true} />&nbsp;
+              <Checkbox disabled={true} checked={true} />&nbsp;
+              <Checkbox checked={true} />
               <br />
               <h6>With Label</h6>
               <Checkbox>香蕉</Checkbox>
